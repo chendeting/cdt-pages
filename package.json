@@ -1,0 +1,39 @@
+{
+  "name": "cdt-pages",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/chendeting/cdt-pages.git",
+    "type": "git"
+  },
+  "author": "cdt",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-html": "^3.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
