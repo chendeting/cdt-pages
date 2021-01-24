@@ -1,6 +1,6 @@
 {
   "name": "cdt-pages",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "repository": {
     "url": "https://github.com/chendeting/cdt-pages.git",
